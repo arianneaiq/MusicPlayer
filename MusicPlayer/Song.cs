@@ -41,7 +41,7 @@ namespace MusicPlayer
 
         public string getInfo()
         {
-            return $"{title} - {singer} ({durationInSeconds}s.)";
+            return $"{title} - {singer} ({durationMinSeconds}:{durationInSeconds}s.)";
 ;       }
 
         public int getDuration()
